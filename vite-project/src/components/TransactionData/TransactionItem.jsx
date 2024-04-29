@@ -1,5 +1,6 @@
 import TransactionHistory from "./TransactionHistory";
-  
+import css from "./TransactionData.module.css";
+
 
 export default function TransactionItem({ items }){
     return(

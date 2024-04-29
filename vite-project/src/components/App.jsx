@@ -1,9 +1,9 @@
-import UserProfile from './UserProfile';
-import userdata from './userData.json'
-import friendListData from "./friendListData.json";
- import FriendList from './FriendList.jsx';
- import TransactionItem from "./TransactionItem";
- import data from './transactions.json';
+import UserProfile from './UserProfile/UserProfile.jsx';
+import userdata from './UserProfile/userData.json'
+import friendListData from "./FriendList/friendListData.json";
+ import FriendList from './FriendList/FriendList.jsx';
+ import TransactionItem from "./TransactionData/TransactionItem.jsx";
+ import data from './TransactionData/transactions.json';
 
 
 export default function App() {
