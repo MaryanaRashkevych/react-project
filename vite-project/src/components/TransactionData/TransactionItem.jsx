@@ -1,13 +1,11 @@
-import TransactionHistory from "./TransactionHistory";
-import css from "./TransactionData.module.css";
+// import TransactionHistory from "./TransactionHistory";
+// import css from "./TransactionItem.module.css";
 
 
-export default function TransactionItem({ items }){
-    return(
-        <div>
-        {items.map((item)=> (
-            <TransactionHistory key={item.id} items={item}/>
-        ))}
-        </div>
-    )
-}
+// export default function TransactionItem({ items }) {
+//     return (
+//       <div className={css.container}>
+//         <TransactionHistory items={items} />
+//       </div>
+//     );
+//   }

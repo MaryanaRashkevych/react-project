@@ -1,0 +1,32 @@
+ 
+.container{
+  
+width:  120px;
+ 
+border: 2px solid darkslategray;
+border-radius: 10px;
+display:inline-flex;
+flex-direction: row;
+column-gap: 18px;
+padding: 16px;
+margin-right: 18px;
+justify-content: center;
+
+}
+.img{
+    width: 62px;
+}
+.name{
+ padding-top: 20px;
+font-size: 22px;
+ font-weight: bold;
+}
+.text{
+    font-size: 18px;
+}
+.online{
+    color: green;
+}
+.offline{
+    color:red;
+}
